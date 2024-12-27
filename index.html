@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github Profiles</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form id="form">
+        <input class="user-input" id="input" type="text" placeholder="Enter User Id" />
+    </form>
+    
+    <main id="main">
+        <!-- // dynamically populate your card here. -->
+        <div class="profile-card">
+            <div class="profile-image">
+              <img id="Avatar" src="https://via.placeholder.com/100" alt="Profile Image">
+            </div>
+            <div class="profile-details">
+              <h2 id="Name">--</h2>
+              <p id="Bio">--</p>
+              <div class="profile-stats">
+                <span id="Followers"><strong>Followers:</strong>0</span>
+                <span id="Following"><strong>Following:</strong>0</span>
+                <span id="Repos"><strong>Repos:</strong>0</span>
+              </div>
+              <div class="profile-meta">
+                <p id="Twitter"><strong>Twitter:</strong>--</p>
+                <p id="locat"><strong>Location:</strong>--</p>
+              </div>
+            </div>
+          </div>
+    </main>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
